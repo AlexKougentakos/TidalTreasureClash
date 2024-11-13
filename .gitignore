@@ -1,0 +1,39 @@
+# Ignore configuration files and system-specific folders
+*.sln
+*.suo
+*.user
+*.userossc
+*.users
+*.VC.db
+*.VC.opendb
+*.vscode/
+
+# Ignore binary files and build outputs
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.dll
+*.exe
+*.pdb
+
+# Ignore plugin build files
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore temporary Unreal Engine files
+*.log
+*.tmp
+
+# Ignore Mac OS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+
+# Ignore Perforce files if not needed
+.p4ignore
